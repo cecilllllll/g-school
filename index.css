@@ -1,80 +1,83 @@
 
-    @font-face {
-      font-family: 'SpoqaHanSansNeo-Regular';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-    }
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-    * { font-family: 'SpoqaHanSansNeo-Regular';}
+* { font-family: 'SpoqaHanSansNeo-Regular';}
 
-    @font-face {
-      font-family:"Nanum";
-      src: url(./font/NanumGothicCoding.ttf);
-    }
 
-    * {
-      margin: 0;
-      padding: 0;
-    }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-    ::selection {
-				background-color: #c4c4c4;
-				color: white;
-			}
-
-       #logo {
-      font-size: 27px;
-      letter-spacing: 0px;
-      font-weight: Bold;
-      font-style: normal;
-      color: #212121;
-      padding: 26px 0px;
-      line-height: inherit;
-    }
-
-    
-    a{text-decoration: none; 
-      color: inherit; 
-      font-family: 'Nanum';
-      letter-spacing: 0px;
-      font-weight: bold;
-      font-style: normal;
-      color: #212121;
-      line-height: inherit;}
+::selection {
+    background-color: #c4c4c4;
+    color: white;
+  }
 
 
 
-.header{
+.header {
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 100px;
   max-width: 100% !important;
-  margin: 0 auto;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.nav{
-  display: flex;
-font-size: 15px;
-padding: 26px 0px;
-visibility: visible;
-}
-.navitem {
-  margin : 0px 10px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  max-width: 100%;
+  height: 100px;
 }
 
-.video{height: 550px;
-  display: flex;
-   justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
 
-#videoIFrame{width: 100vw;
-height: 100vw;}
+  .logo {
+    display: block;
+    padding: 26px 0px;
+    width: 223px;
+  }
+
+
+    a{
+      font-family: 'Nanum Gothic Coding', monospace;
+      letter-spacing: 0px;
+      font-size: 27px;
+      line-height: inherit;
+      text-decoration: none; 
+      font-weight: bold;
+      font-style: normal;
+      color: #212121;
+    }
+
+
+  .nav{
+    display: flex;
+  font-size: 15px;
+  padding: 26px 0px;
+  visibility: visible;
+  }
+
+      .navitem {
+      margin : 0px 10px;
+    }
+
+  .video{height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  #videoIFrame{width: 100vw;
+  height: 100vw;
+  }
 
   .blue-box{display: flex;
   justify-content: center
