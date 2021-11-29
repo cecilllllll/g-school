@@ -18,6 +18,7 @@ function schoolquiz() {
 
   let quiz3 = prompt('과학은?')
   if (quiz3.includes('기린')) alert('굳');
+  else if (quiz3.includes('활어')) alert('현재 활어는 애플에서..');
   else alert('땡');
 
   let quiz4 = prompt('사회는 누구?');
@@ -34,5 +35,5 @@ function schoolquiz() {
   if (quiz6 == '에코') alert('현명한 답변이군');
   else if (quiz6 == '벨라') alert('벨라는 머리!');
   else alert('정답!');
-
 }
+
