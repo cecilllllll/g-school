@@ -37,3 +37,18 @@ function schoolquiz() {
   else alert('정답!');
 }
 
+function nickname() {
+  const name = prompt('who are you')
+  const welcome = "welcome, "
+  const text = welcome.concat(name)
+  const dobe = document.querySelector('.dobe')
+  dobe.textContent = text
+
+}
+
+// const step;
+// for (step = 0; step < 30; step++) {
+
+// }
+
+

@@ -106,10 +106,16 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
   }
 
   #videoIFrame{width: 100vw;
   height: 100vw;
+  }
+  .dobe {
+    position: absolute;
+    color: white;
+    font-size: 80px;
   }
 
   .introduce{
