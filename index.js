@@ -39,11 +39,21 @@ function schoolquiz() {
 
 function nickname() {
   const name = prompt('who are you')
-  const welcome = "welcome, "
-  const text = welcome.concat(name)
-  const dobe = document.querySelector('.dobe')
-  dobe.textContent = text
-
+  if (name == null) {
+    document.querySelector('.dobe').style.display = "none";
+  }
+  else {
+    if (name.length > 0) {
+      const welcome = "welcome, "
+      const text = welcome.concat(name)
+      const dobe = document.querySelector('.dobe')
+      dobe.textContent = text
+      document.querySelector('.dobe').style.display = "";
+    }
+    else {
+      document.querySelector('.dobe').style.display = "none";
+    }
+  }
 }
 
 // const step;
@@ -51,4 +61,7 @@ function nickname() {
 
 // }
 
+function down() {
+
+}
 
